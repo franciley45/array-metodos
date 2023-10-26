@@ -91,7 +91,7 @@ const frutas1 = ["maçã", "banana", "laranja"];
 const lista = frutas1.join(", "); 
 console.log(lista) // "maçã, banana, laranja"
 
-// metodo join() mmétodo em JavaScript usado para converter um valor em uma representação de string. Quando aplicado a um objeto ou array, ele retorna uma representação de string do objeto.  
+// metodo toString() mmétodo em JavaScript usado para converter um valor em uma representação de string. Quando aplicado a um objeto ou array, ele retorna uma representação de string do objeto.  
 const numeros2 = [1, 2, 3, 4, 5];
 const stringNumeros = numeros2.toString();
 console.log(stringNumeros)//  "1,2,3,4,5".
