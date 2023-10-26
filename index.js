@@ -68,4 +68,31 @@ console.log(resultado5); // 15
 
 // metodo forEach() usado para iterar sobre os elementos de um array e executar uma função para cada elemento, sem criar um novo array. 
 const meuArray12 = [1, 2, 3];
-meuArray12.forEach(elemento => console.log(elemento * 2));
+meuArray12.forEach(elemento => console.log(elemento * 2)); // 2 4 6
+
+// metodo indexOf() método de string ou array que retorna o índice da primeira ocorrência de um elemento ou substring. Se não encontrar, retorna -1. 
+const frase = "Olá, como vai você?";
+const indice = frase.indexOf("l"); 
+console.log(indice) // 1
+
+// metodo reverse() método em JavaScript usado para inverter a ordem dos elementos em um array. Ele não funciona com strings.  
+const numeros = [1, 2, 3, 4, 5];
+numeros.reverse();
+console.log(numeros) // [5, 4, 3, 2, 1]
+
+// metodo concat() método em JavaScript usado para combinar arrays ou elementos em um novo array. Ele não modifica os arrays originais, mas cria um novo array com os elementos combinados. .  
+const array1 = [1, 2];
+const array2 = [3, 4];
+const novoArray3 = array1.concat(array2);
+console.log(novoArray3) // [1, 2, 3, 4]
+
+// metodo join() método em JavaScript usado para criar uma string a partir dos elementos de um array, separando-os com um delimitador especificado.  
+const frutas1 = ["maçã", "banana", "laranja"];
+const lista = frutas1.join(", "); 
+console.log(lista) // "maçã, banana, laranja"
+
+// metodo join() mmétodo em JavaScript usado para converter um valor em uma representação de string. Quando aplicado a um objeto ou array, ele retorna uma representação de string do objeto.  
+const numeros2 = [1, 2, 3, 4, 5];
+const stringNumeros = numeros2.toString();
+console.log(stringNumeros)//  "1,2,3,4,5".
+
