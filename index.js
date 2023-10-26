@@ -91,8 +91,12 @@ const frutas1 = ["maçã", "banana", "laranja"];
 const lista = frutas1.join(", "); 
 console.log(lista) // "maçã, banana, laranja"
 
-// metodo toString() mmétodo em JavaScript usado para converter um valor em uma representação de string. Quando aplicado a um objeto ou array, ele retorna uma representação de string do objeto.  
+// metodo toString() método em JavaScript usado para converter um valor em uma representação de string. Quando aplicado a um objeto ou array, ele retorna uma representação de string do objeto.  
 const numeros2 = [1, 2, 3, 4, 5];
 const stringNumeros = numeros2.toString();
 console.log(stringNumeros)//  "1,2,3,4,5".
 
+// metodo flat() método em JavaScript usado para "achatamento" (aplanamento) de arrays, removendo subníveis aninhados e criando um novo array com todos os elementos em um único nível.  
+const arr = [1, 2, [3, 4, [5, 6]]];
+const flatArr = arr.flat(2);
+console.log(flatArr)// [1, 2, 3, 4, 5, 6]
